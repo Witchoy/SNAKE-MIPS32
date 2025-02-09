@@ -1,8 +1,30 @@
-<div id="title" align="center">
-  <h2>SNAKE Game in MIPS32 <br/></h2>
-  <img src="https://camo.githubusercontent.com/d6bbfa4975b3337529b17c925db20aab9d950dc0a4ca1a7194d2943d2bfecd82/68747470733a2f2f69302e77702e636f6d2f6172742e706978696c6172742e636f6d2f6662373434353865663730336166612e6769663f726573697a653d3330302532433330302673736c3d31" alt="Snake game">
-</div>
-<hr>
-This Snake game was **partly** made by Jules Goy and Kilian Sakhi for a school project. 
-The language used to power the Snake is Assembly Mips 32 and Mars v4.5 is required to execute it.
-In order to play the game you'll need to activate the "Bitmap Display" (Settings : 1,1,256,256) and the "Keyboard and Display MMIO Simulator" (both are in the Tools tab).
+# Snake in MIPS32 Assembly
+
+This Snake game was **partly** developed by Jules Goy and Kilian Sakhi as a school project. It is written in MIPS32 Assembly and requires **MARS v4.5** to run.
+
+## Requirements
+
+- **MARS v4.5** (MIPS Assembler and Runtime Simulator)
+- **Bitmap Display** (Settings: `1,1,256,256`)
+- **Keyboard and Display MMIO Simulator** (Both are in the *Tools* menu in MARS)
+
+## How to Run
+
+1. Open `snake.asm` in **MARS v4.5**.
+2. Enable the **Bitmap Display**:
+   - Go to *Tools* > *Bitmap Display*.
+   - Set the settings to: `1,1,256,256`.
+   - Click **Connect**.
+3. Enable the **Keyboard and Display MMIO Simulator**:
+   - Go to *Tools* > *Keyboard and Display MMIO Simulator*.
+   - Click **Connect**.
+4. Run the program.
+
+## Controls
+
+- **Arrow keys**: Move the snake.
+
+## Authors
+
+- **Jules Goy**
+- **Kilian Sakhi**
